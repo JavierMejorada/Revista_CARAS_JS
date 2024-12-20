@@ -1,0 +1,304 @@
+@font-face {
+  font-family: "Barlow Bold", sans-serif;
+  src: url("../fonts/Barlow-Bold.woff2") format("woff2"), url("../fonts/Barlow-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Light", sans-serif;
+  src: url("../fonts/Barlow-Light.woff2") format("woff2"), url("../fonts/Barlow-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Playfair Display", serif;
+  src: url("../fonts/Playfair-Display-Regular.woff2") format("woff2"), url("../fonts/Playfair-Display-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Light", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #ff0000;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+header .logo {
+  max-width: 150px;
+}
+header h1 {
+  margin: 10px 0;
+  font-size: 2em;
+  font-family: "Barlow Bold", sans-serif;
+  color: #fff;
+}
+header p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.subscription-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.subscription-form h2 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+.subscription-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscription-form form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+.subscription-form form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.subscription-form form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-family: "Barlow Bold", sans-serif;
+}
+.subscription-form form button:hover {
+  background-color: #555;
+}
+
+.highlight {
+  padding: 20px;
+  text-align: center;
+}
+.highlight .highlight-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .highlight .highlight-content {
+    flex-direction: column;
+  }
+  .highlight .highlight-content .benefit {
+    flex: 1 1 100%;
+  }
+}
+.highlight .benefit {
+  flex: 1 1 30%;
+  margin: 10px;
+  text-align: center;
+}
+.highlight .benefit img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.testimonials .testimonial {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.testimonials .testimonial img {
+  border-radius: 0%;
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+footer p {
+  margin: 10px 0;
+}
+footer a {
+  display: inline-block;
+  margin: 0 10px;
+}
+footer img {
+  width: 24px;
+  height: 24px;
+}
+footer .footer-logo {
+  margin-top: 20px;
+  max-width: 100px;
+  width: 24px;
+  height: 11px;
+}
+
+header {
+  background-color: #ff0000;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+header .logo {
+  max-width: 150px;
+}
+header h1 {
+  margin: 10px 0;
+  font-size: 2em;
+  font-family: "Barlow Bold", sans-serif;
+  color: #fff;
+}
+header p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+footer p {
+  margin: 10px 0;
+}
+footer a {
+  display: inline-block;
+  margin: 0 10px;
+}
+footer img {
+  width: 24px;
+  height: 24px;
+}
+footer .footer-logo {
+  margin-top: 20px;
+  max-width: 100px;
+  width: 24px;
+  height: 11px;
+}
+
+.subscription-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.subscription-form h2 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+.subscription-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscription-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+.subscription-form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.subscription-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-family: "Barlow Bold", sans-serif;
+}
+.subscription-form button:hover {
+  background-color: #555;
+}
+
+.testimonials {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.testimonials .testimonial {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.testimonials .testimonial img {
+  border-radius: 0%;
+  width: 150px;
+  height: 150px;
+}
+
+.highlight-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .highlight-content {
+    flex-direction: column;
+  }
+  .highlight-content .benefit {
+    flex: 1 1 100%;
+  }
+}
+
+.benefit {
+  flex: 1 1 30%;
+  margin: 10px;
+  text-align: center;
+}
+.benefit img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.success-message {
+  color: green;
+  font-size: 1.2em;
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=main.css.map */

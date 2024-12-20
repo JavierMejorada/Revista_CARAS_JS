@@ -1,0 +1,23 @@
+@font-face {
+    font-family: $font-bold;
+    src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+         url('../fonts/Barlow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $font-light;
+    src: url('../fonts/Barlow-Light.woff2') format('woff2'),
+         url('../fonts/Barlow-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $font-display;
+    src: url('../fonts/Playfair-Display-Regular.woff2') format('woff2'),
+         url('../fonts/Playfair-Display-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

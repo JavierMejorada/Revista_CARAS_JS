@@ -1,0 +1,15 @@
+.testimonials {
+    background-color: $secondary-color;
+    padding: 20px;
+
+    .testimonial {
+        margin-bottom: 20px;
+        text-align: center;
+
+        img {
+            border-radius: 0%;
+            width: 150px;
+            height: 150px;
+        }
+    }
+}

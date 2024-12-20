@@ -1,0 +1,22 @@
+header {
+    background-color: $primary-color;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+
+    .logo {
+        max-width: 150px;
+    }
+
+    h1 {
+        margin: 10px 0;
+        font-size: 2em;
+        font-family: $font-bold;
+        color: #fff;
+    }
+
+    p {
+        font-size: 1.2em;
+        color: #fff;
+    }
+}

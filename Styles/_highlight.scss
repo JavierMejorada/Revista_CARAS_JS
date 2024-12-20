@@ -1,0 +1,25 @@
+.highlight-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+
+        .benefit {
+            flex: 1 1 100%;
+        }
+    }
+}
+
+.benefit {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
